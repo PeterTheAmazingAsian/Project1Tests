@@ -6,7 +6,7 @@ void foo(CDA<int> X)
 {
 	for (int i = 0; i < X.Length() / 2; i++)
 		X[i] = X[X.Length() / 2 + i];
-	// X => "5 4 3 2 1 0 5 4 3 2 1 0 5"	// this should be correct values for foo
+	// X => "5 4 3 2 1 0 5 4 3 2 1 0 5"	// these should be the correct values for foo
 	for (int i = 0; i < X.Length(); i++) cout << X[i] << " ";
 	cout << endl;
 }

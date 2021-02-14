@@ -39,6 +39,7 @@ int main(){
     //printarray(A);
     cout << "Check 1:" << boolalpha << checkarray(A, vector<int>{0, 1, 2, 3, 4}) 
          << " A => 0 1 2 3 4" << endl;
+
     //Check 2
     // test addfront on even #, addend on odd #
     // this should have: 18 16 14 12 10 8 6 4 2 0 1 3 5 7 9 11 13 15 17 19
@@ -52,6 +53,7 @@ int main(){
     //printarray(B);
     cout << "Check 2:" << boolalpha << checkarray(B, vector<int>{18, 16, 14, 12, 10, 8, 6, 4, 2, 0, 1, 3, 5, 7, 9, 11, 13, 15, 17, 19}) 
          << " B => 18 16 14 12 10 8 6 4 2 0 1 3 5 7 9 11 13 15 17 19" << endl;
+
     // Check 3
     // test addfront on even #, addend and reverse on odd #
     // this should have: 19 16 15 12 11 8 7 4 3 0 1 2 5 6 9 10 13 14 17 18
@@ -67,8 +69,9 @@ int main(){
     //printarray(C);
     cout << "Check 3:" << boolalpha << checkarray(C, vector<int>{19, 16, 15, 12, 11, 8, 7, 4, 3, 0, 1, 2, 5, 6, 9, 10, 13, 14, 17, 18})
          << " C => 19 16 15 12 11 8 7 4 3 0 1 2 5 6 9 10 13 14 17 18" << endl;
+
     // Check 4
-    // test addend but when doubling if the power of 2 is even addfront but if it's odd then addend
+    // test addend but when doubling if the power of 2 is even addfront or if it's odd then addend
     // this should have: 64 16 4 1 0 2 3 5 6 7 8 9 10 11 12 13 14 15 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63
     CDA<int> D;
     int pow = 0;

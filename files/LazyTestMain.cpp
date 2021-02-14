@@ -41,12 +41,12 @@ int main()
 	//for (int i = 0; i < C.Length(); i++) cout << C[i] << " ";  cout << endl;
 	cout << "checkpoint 3 passed:" << boolalpha << checkarray(C, vector<int>{1, 2, 3, 4, 5, 6, 7, 8}) << " C => 1 2 3 4 5 6 7 8" << endl;
 	// C => "1 2 3 4 5 6 7 8"
-	C.AddEnd(100.0);
+	C.AddEnd(100);
 	//CHECKPOINT 4
 	//for (int i = 0; i < C.Length(); i++) cout << C[i] << " ";  cout << endl;
 	cout << "checkpoint 4 passed:" << boolalpha << checkarray(C, vector<int>{1, 2, 3, 4, 5, 6, 7, 8, 100}) << " C => 1 2 3 4 5 6 7 8 100" << endl;
 	// C => "1 2 3 4 5 6 7 8 100"
-	C.AddEnd(101.0);
+	C.AddEnd(101);
 	C.Reverse();
 	//CHECKPOINT 5
 	//for (int i = 0; i < C.Length(); i++) cout << C[i] << " ";  cout << endl;
@@ -54,8 +54,8 @@ int main()
 	// C => "101 100 8 7 6 5 4 3 2 1"
 	C.DelEnd();
 	C.DelEnd();
-	C.AddFront(-100.0);
-	C.AddFront(-200.0);
+	C.AddFront(-100);
+	C.AddFront(-200);
 	//CHECKPOINT 6
 	//for (int i = 0; i < C.Length(); i++) cout << C[i] << " ";  cout << endl;
 	cout << "checkpoint 6 passed:" << boolalpha << checkarray(C, vector<int>{-200, -100, 101, 100, 8, 7, 6, 5, 4, 3}) << " C => -200 -100 101 100 8 7 6 5 4 3" << 

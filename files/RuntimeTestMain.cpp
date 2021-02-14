@@ -55,7 +55,7 @@ int main(){
             B.DelEnd();
         }
         auto time_end = chrono::steady_clock::now();
-        cout << chrono::duration_cast<chrono::nanoseconds>(time_end - time_start).count() << " ns to remove elements 1000 from front" << endl;
+        cout << chrono::duration_cast<chrono::nanoseconds>(time_end - time_start).count() << " ns to remove 1000 elements from front" << endl;
     }
     cout << "B Size = " << B.Length() << endl;
     return 0;
