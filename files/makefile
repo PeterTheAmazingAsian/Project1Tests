@@ -1,5 +1,5 @@
 # uncomment the line below and change the compiler flags if you need to (use at least c++11 on the server)
-# CXXFLAGS = -std=c++11 
+CXXFLAGS = -std=c++11 
 
 all: 
 	g++ Phase1Main.cpp $(CXXFLAGS) -o Phase1
