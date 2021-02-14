@@ -3,13 +3,13 @@
 
 all: 
 	g++ Phase1Main.cpp $(CXXFLAGS) -o Phase1
-	g++ LazyMainTest.cpp $(CXXFLAGS) -o Lazy
+	g++ LazyTestMain.cpp $(CXXFLAGS) -o Lazy
 	g++ RuntimeTestMain.cpp $(CXXFLAGS) -o Run
 	g++ CDABreakMain.cpp $(CXXFLAGS) -o Break
 main:
 	g++ Phase1Main.cpp $(CXXFLAGS) -o Phase1
 lazy:
-	g++ LazyMainTest.cpp $(CXXFLAGS) -o Lazy
+	g++ LazyTestMain.cpp $(CXXFLAGS) -o Lazy
 run:
 	g++ RuntimeTestMain.cpp $(CXXFLAGS) -o Run
 break:

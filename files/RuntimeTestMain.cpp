@@ -17,7 +17,7 @@ int main(){
             A.AddEnd(0);
         }
         auto time_end = chrono::steady_clock::now();
-        cout << chrono::duration_cast<chrono::nanoseconds>(time_end - time_start).count() << " ns to add 1000 to end" << endl;
+        cout << chrono::duration_cast<chrono::nanoseconds>(time_end - time_start).count() << " ns to add 1000 elements to end" << endl;
     }
     cout << "A Size = " << A.Length() << endl;
     // 1st and 2nd, should be "smaller" since they should not have to resize
@@ -29,7 +29,7 @@ int main(){
             A.DelFront();
         }
         auto time_end = chrono::steady_clock::now();
-        cout << chrono::duration_cast<chrono::nanoseconds>(time_end - time_start).count() << " ns to remove 1000 from front" << endl;
+        cout << chrono::duration_cast<chrono::nanoseconds>(time_end - time_start).count() << " ns to remove 1000 elements from front" << endl;
     }
     cout << "A Size = " << A.Length() << endl;
 
@@ -43,7 +43,7 @@ int main(){
             B.AddFront(0);
         }
         auto time_end = chrono::steady_clock::now();
-        cout << chrono::duration_cast<chrono::nanoseconds>(time_end - time_start).count() << " ns to add 1000 to end" << endl;
+        cout << chrono::duration_cast<chrono::nanoseconds>(time_end - time_start).count() << " ns to add 1000 elements to end" << endl;
     }
     cout << "B Size = " << B.Length() << endl;
     // 1st and 2nd, should be "smaller" since they should not have to resize
@@ -55,7 +55,7 @@ int main(){
             B.DelEnd();
         }
         auto time_end = chrono::steady_clock::now();
-        cout << chrono::duration_cast<chrono::nanoseconds>(time_end - time_start).count() << " ns to remove 1000 from front" << endl;
+        cout << chrono::duration_cast<chrono::nanoseconds>(time_end - time_start).count() << " ns to remove elements 1000 from front" << endl;
     }
     cout << "B Size = " << B.Length() << endl;
     return 0;
