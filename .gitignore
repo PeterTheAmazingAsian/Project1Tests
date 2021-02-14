@@ -1,0 +1,5 @@
+#ignore unneeded proj files
+*.code-workspace
+*.exe
+*.out
+CDA.cpp
