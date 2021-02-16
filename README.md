@@ -8,4 +8,4 @@ These are some test cases for my CS201 class project. There is also a make file 
 
 ### Usage
 To use just place the files with your CDA.cpp, you can then either manually compile each test or use the makefile included to compile. 
-If testing on the cs-intro server use at least c++11 when compiling.
+Use at least c++11 when compiling.
