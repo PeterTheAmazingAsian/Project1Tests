@@ -1,5 +1,6 @@
 #ignore unneeded proj files
 *.code-workspace
+*.DS_Store
 *.exe
 *.out
 CDA.cpp
