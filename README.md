@@ -1,5 +1,5 @@
 # Project 1 Test Cases
-These are some test cases for my CS201 class project. There is also a make file to compile each test case or all of them together.
+These are some test cases for my first project (Circular Dynamic Array) in my data structures and algorithms class. There is also a make file to compile each test case or all of them together.
 ## Description of Test Cases
 **Phase1Main and LazyTestMain removed on 03/12/2021**  
 ~~**Phase1Main** - Just a copy of the provided Phase1Main, slightly reformated and the expected value of foo fixed.  
